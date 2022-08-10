@@ -1,0 +1,69 @@
+.rodape__info {
+  color: var(--preto);
+  font-family: var(--familia-logo);
+  font-size: 2rem;
+  font-weight: 20;
+  padding-top: 10px;
+  text-align: center;
+  text-shadow: var(--fundo-destaque) 0.3em 0.3em 0.2em;
+  text-decoration: none
+}
+
+
+.rodape {
+  background-color: #132714;
+  height: 10px;
+  /*altura do rodapé*/
+  margin-top: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Satisfy & display=swap');
+
+.autor {
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+
+
+}
+
+.texto__rodape {
+  color: var(--preto);
+  font-family: var(--familia-logo);
+  font-size: 3rem;
+  font-weight: 200px;
+  padding-top: 10px;
+  text-align: center;
+  text-shadow: var(--fundo-destaque) 0.3em 0.3em 0.2em;
+  text-decoration: none
+    /*adiciona sobra em volta do texto*/
+}
+
+/* estilização do copyright*/
+.copyright {
+  color: #243327;
+  font-size: 20px;
+  margin: 20px 0 0;
+  padding-top: 10;
+}
+
+#back-to-top {
+  background: rgb(123, 190, 123);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  display: inline;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin-right: 1rem;
+  padding: .5rem .6125rem;
+}
+
+.by {
+  background: rgb(25, 58, 25);
+  margin: 2rem;
+}
+
+.joao {
+  bottom: 5rem;
+
+}

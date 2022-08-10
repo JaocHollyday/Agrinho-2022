@@ -1,0 +1,19 @@
+.agrinho__ef {
+    background-color: var(--cor-fundo);
+}
+
+.titulo__agrinhoef {
+    background-color: var(--fundo-destaque);
+    color: var(--branco);
+    font-family: var(--familia-titulo);
+    font-size: 2rem;
+    margin-top: 20px;
+    text-align: center;
+    /* alinha o texto ao centro */
+}
+
+.texto__agrinhoef {
+    font-size: 1.5rem;
+    font-family: var(--fundo-corpo);
+    text-align: center;
+}

@@ -1,0 +1,132 @@
+.botao {
+    background: rgb(123, 190, 123);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    display: inline;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-right: 1rem;
+    padding: .5rem .6125rem;
+}
+
+.botao:hover {
+    background: darkgreen;
+    cursor: pointer;
+}
+
+.link__navegacao {
+    font-family: var(--familia-logo);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+/* Uma caixa que vai guardar dentro o título e uma breve descrição sobre o concurso Agrinho. */
+section {
+    background-color: rgb(183, 233, 181);
+}
+
+.tituloprincipal {
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+/* Estilo da imagem. */
+.principal__imagem {
+    width: 20rem;
+    margin-top: 5rem;
+}
+
+.titulo1 {
+    color: #1b351a;
+    border-radius: 5px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-size: 51px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.5em;
+}
+
+.titulo2 {
+    color: #0cf374;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-size: 51px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1em;
+}
+
+.tituloprincipal {
+    background-color: rgb(57, 102, 68);
+}
+
+.container {
+    float: left;
+    width: 100%;
+    background-color: rgb(57, 102, 68);
+}
+
+.section-seu-codigo {
+    padding: 10px 0px;
+    background-color: #b1dbb1;
+}
+
+.section-seu-codigo .content {
+    float: left;
+    padding: 1em 0;
+}
+
+@media screen and (min-width: 0) {
+    .tituloprincipal {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+
+    .principal__texto {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .titulo1 {
+        font-size: 2rem;
+    }
+
+    .titulo2 {
+        font-size: 4rem;
+    }
+
+    .principal__imagem {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .titulos1 {
+        margin-top: 0;
+        margin-bottom: 0rem;
+    }
+
+    .principal__texto {
+        line-height: 1.5rem;
+        font-size: 20px;
+    }
+
+    .titulo1 {
+        font-size: 2rem;
+    }
+
+    .titulo2 {
+        font-size: 3rem;
+    }
+
+    .principal__imagem {
+        margin-left: 9rem;
+    }
+}
